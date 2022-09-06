@@ -85,7 +85,7 @@ DNS2=8.8.8.8
 
 NETWORK=192.168.0.0 (sua rede)
 
-*Salve o arquivo e reinicie a VM (ou usasr o comando "systemctl restart NetworkManager")*
+*Salve o arquivo e reinicie a VM (ou usar o comando "systemctl restart NetworkManager")*
 
 
 
