@@ -64,5 +64,28 @@ Agora que o Oracle Linux foi devidamente instalado, algumas alterações precisa
 
 - Digite o comando "sudo yum update" para que o kernel do linux esteja totalmente atualizado
 
+### Cofigurar IP fixo
+
+O primeiro passo para configurar o IP fixo é acessar o diretório **/etc/sysconfig/network-scripts** e alterar o arquivo **ifcfg-enp0s3**
+
+- Alterar BOOTPROTO=dhcp para BOOTPROTO=none
+- Adicionar os seguintes valores no arquivo:
+
+IPADDR0=192.168.0.135 (algum IP válido na sua rede)
+
+PREFIX0=24 (prefixo da sua rede)
+
+GATEWAY0=192.168.0.1 (gateway da sua rede)
+
+NETMASK=255.255.255.0 (máscara da sua rede)
+
+DNS1=192.168.1.0
+
+DNS2=8.8.8.8
+
+NETWORK=192.168.0.0 (sua rede)
+
+*Salve o arquivo e reinicie a VM (ou usasr o comando "systemctl restart NetworkManager")*
+
 
 
