@@ -8,7 +8,7 @@
 *A versão utilizada, apesar de não ser a última, é a mais estável no momento que foi escrito este repositório*
 
 ## Instalação
-A instalação do Oracle Linux é bastante semples. Para que não ocorra nenhum problema durante o processo de instalação, irei detalhar o que deve ser feito.
+A instalação do Oracle Linux é bastante semples. Para que não ocorra nenhum problema durante o processo de instalação, irei detalhar como deve ser feito.
 Abaixo poderá ser visto cada seção da instalação e a explicação do que deve, ou não, ser feito
 
 ### *Especificação das VM's* 
