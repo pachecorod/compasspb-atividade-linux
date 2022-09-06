@@ -64,7 +64,7 @@ Agora que o Oracle Linux foi devidamente instalado, algumas alterações precisa
 
 - Digite o comando "sudo yum update" para que o kernel do linux esteja totalmente atualizado
 
-### Cofigurar IP fixo
+### Configurar IP fixo
 
 O primeiro passo para configurar o IP fixo é acessar o diretório **/etc/sysconfig/network-scripts** e alterar o arquivo **ifcfg-enp0s3**
 
