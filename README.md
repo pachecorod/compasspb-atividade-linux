@@ -12,7 +12,7 @@ A instalação do Oracle Linux é bastante semples. Para que não ocorra nenhum 
 Abaixo poderá ser visto cada seção da instalação e a explicação do que deve, ou não, ser feito
 
 ### *Especificação das VM's* 
-*RAM: 2mb*
+*RAM: 2GB*
 
 *HD: 40GB*
 
